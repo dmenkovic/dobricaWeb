@@ -1,4 +1,4 @@
-<?php include('meil.php'); ?>
+<?php include('mail.php'); ?>
 <!DOCTYPE html>
 <html>
     <head>
