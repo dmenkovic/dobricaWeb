@@ -1,0 +1,48 @@
+textarea, input[type=text] {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px auto;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+
+textarea:focus, input[type=text]:focus {
+    border: 2px solid #555;
+}
+fieldset {
+    width: 50%;
+    margin: auto;
+    padding: 50px;
+    color: #0070c9;
+    border: 1px solid #0070c9;
+}
+#mybtn {
+        height: 35px;
+        padding: 0 25px;
+        margin-bottom: 20px;
+        border: 1px solid #0070c9;
+        font-size: 15px;
+        font-weight: normal;
+        color: #0070c9;
+        background: #fff;
+        border-radius: 4px;
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        -khtml-border-radius: 4px;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+}
+#mybtn:hover {
+    color: #fff;
+    background: #0070c9;
+}
+#err {
+    color: red;
+}
+#status {
+    color: green;
+}
