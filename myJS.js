@@ -14,7 +14,7 @@ function submitForm(){
     formdata.append( "e", _("e").value );
     formdata.append( "m", _("m").value );
     var ajax = new XMLHttpRequest();
-    ajax.open( 'POST', 'meil.php', true );
+    ajax.open( 'POST', 'mail.php', true );
     ajax.onreadystatechange = function() {
         if(ajax.readyState == 4 && ajax.status == 200) {
             if(ajax.responseText == "success"){
