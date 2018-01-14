@@ -1,15 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="sr-RS" >
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8" />
+  <title>NAĐA Menković</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Dobrica Menković" />
+  <!--[if lt IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+
+  <!--[if lt IE 9]>
+  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+  <![endif]-->
 <style>
-body, html {
-  height: 100%;
-  margin: 0;
-  font: 400 15px/1.8 "Lato", sans-serif;
-  color: #777;
+header, section, footer, aside, nav, main, article, figure {display: block;}
+* {
+    box-sizing: border-box; 
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 }
-  p { font-size: 1.2em;}
+html, body {
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  margin: 0; 
+  padding: 0; 
+  font-size: 100%; 
+  font: 400 15px/1.8 "Lato", sans-serif;
+  width: 100%; 
+  height: 100%;
+  color: #232525;
+}
+p { font-size: 1.2em;}
  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
   position: relative;
   opacity: 0.85;
@@ -17,7 +48,6 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .bgimg-1 {
   background-image: url("https://lh3.googleusercontent.com/11bGlWN3BpDdUnZj-aaBzkCaEE5zNp9bB32AZu7K9fDoE0oLblMcqucibVPiubtwYwaGlvPd3TN18w=w615-h413-rw-no");
@@ -79,10 +109,10 @@ body, html {
   letter-spacing: 10px;
 }
 .caption span.border {
-  background-color: #106a3d;
-  color: #fff;
+  background-color: transparent;
+  color: #f7f7f7;
   padding: 18px;
-  font-size: 20px;
+  font-size: 25px;
   letter-spacing: 10px;
 }
 h3 {
@@ -91,12 +121,55 @@ h3 {
   font: 20px "Lato", sans-serif;
   color: #111;
 }
+#uvod {
+  color: #777;
+  background-color: white;
+  text-align: justify;
+  padding: 50px 80px;
+}
+.opis {
+  color: #ddd;
+  background-color: #6a103d;
+  text-align: justify;
+  padding: 50px 80px;
+}
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
     .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
         background-attachment: scroll;
     }
+}
+@media screen and (min-width: 1440px) {
+  p {
+    font-size: 2em;
+  }
+  h3 {
+    font-size: 3.5em;
+  }
+  .caption p.border {
+    font-size: 3.5em;
+  }
+  .caption span.border {
+    font-size: 4em;
+  }
+  .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5, .bgimg-6, .bgimg-7, .bgimg-8, .bgimg-9, .bgimg-10 {
+    min-height: 1000px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #uvod, .opis {
+    padding: 50px 50px;
+  }
+  .bgimg-3 {
+    background-image: url("https://lh3.googleusercontent.com/6QYT0eBtvIKTQfaYRskUkE3XUPZfew5arW2wTBNKPrJFtC1lO8_IUJIKYX0orcwOVcpxJzoZsAl2TA=w960-h1280-rw-no");
+}
+  .bgimg-8 {
+    background-image: url("https://lh3.googleusercontent.com/LQnE_qad6gd-1ozXutD4KaP9L82BMRlnzROgsxHtaHpxfvL4NN2GUYnGr_EaOIzoCpGJkHmzkjMHdQ=w960-h1280-rw-no");
+}
+  .bgimg-9 {
+    background-image: url("https://lh3.googleusercontent.com/X78hRUtYz7O5foH-mNj5Bin1MyXTk22EH4w3Dyl1NgZqJe23f5yZYwP-7VxRX6R2rCOJrSJ-zQoT0w=w728-h529-rw-no");
+}
 }
 </style>
 </head>
@@ -108,7 +181,7 @@ h3 {
   </div>
 </div>
 
-<div style="color: #777;background-color:white;text-align:center;padding:50px 80px;text-align: justify;">
+<div id = "uvod">
   <h3 style="text-align:center;">JA SAM NJIHOVO PRVO DETE I ŽELIM DA VAM POKAŽEM NEKE DETALJE MOG ŽIVOTA ...</h3>
   <p>Rođena sam 22. decembra 2017. i najmlađi sam član porodice Menković. Nisam htela da
     propustim novu godinu i novogodišnje praznike jer sam vesela, volim da slavim i da se veselim, tako da sam želela da svojim roditejima
@@ -119,12 +192,12 @@ h3 {
 
 <div class="bgimg-2">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">Ja u porodilištu GAK "Narodni front" <br> Spavam ...</span>
+    <span class="border">Ja u porodilištu GAK "Narodni front" <br> Spavam ...</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Moram da priznam da me je moj dolazak na svet prilično izmorio tako da sam ovih nekoliko dana iskoristila da se 
       dobro odmorim. Koliko sam videla i ostali drugari su isto bili jako premoreni tako da smo po ceo dan spavali.
       Sreća da je mama bila odmornija pa je često dolazila da me nahrani inače ne znam kako bih izdržala tako gladna.
@@ -134,23 +207,23 @@ h3 {
 
 <div class="bgimg-3">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MALO SE IGRAM ...</span>
+    <span class="border">MALO SE IGRAM ...</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Kada nismo spavali uglavnom smo jeli i igrali se. Nisam baš ostale drugare upoznala jel kao prava dama ne mogu da razgovaram sa
     nekim koga jedva i poznajem.</p>
   </div>
 </div>
 <div class="bgimg-4">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MALO PLAČEM ...</span>
+    <span class="border">MALO PLAČEM ...</span>
   </div>
 </div>
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Rekla sam ranije da mi ono sa novim godinama nije baš potpuno jasno i da se nadam, kada malo odrastem, da ću to lakše da shvatim.
        Mislim da je sličan problem i sa mamom i tatom. Koliko ja razumem oni i kada pevam, igram se, zovem ih, tražim da jedem zovu 
       "beba plače". Nadam se da će i oni kada malo odrastu da moje ponašanje lakše shvate.</p>
@@ -158,34 +231,34 @@ h3 {
 </div>
 <div class="bgimg-5">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">SVE JE SPREMNO. STIŽEM...</span>
+    <span class="border">SVE JE SPREMNO. STIŽEM...</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>I ako imam malu tremu, mislim da se ona ne može porediti sa tremom koju imaju mama i tata. Razlika je jedino što mene nije sramota 
     pa plačem a oni hoće da pokažu da su hrabri pa ne plaču.</p>
   </div>
 </div>
 <div class="bgimg-6">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">USPAVALA SAM TATU DA MALO ODMORI ...</span>
+    <span class="border">USPAVALA SAM TATU DA MALO ODMORI ...</span>
   </div>
 </div>
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Moj tata puno radi da bi meni kupio igračkice tako da ja imam obzira i povremeno ga uspavam da može i on malo da odmori. 
       Iskreno se nadam da on ovaj moj human gest neće zloupotrebljavati.
   </div>
 </div>
 <div class="bgimg-7">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MAMA MI PRIČA O DEDAMRAZU ...</span>
+    <span class="border">MAMA MI PRIČA O DEDAMRAZU ...</span>
   </div>
 </div>
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Od kako sam došla nekoliko puta su mi pričali o nekom čudnom deki koji ima belu bradu i crvenu kapu. Jednom prilikom su mi rekli 
       da mi je neke poklone doneo baš taj deka koga zovu Deda Mraz. Na moje pitanje gde on živi rekli su da živi jako daleko i da svake
      godine donese maloj deci poklone. Moj tata je za Novu godinu ušao u sobu i posle toga je kod krevetca stajala kesa sa poklonom.
@@ -194,22 +267,22 @@ h3 {
 </div>
   <div class="bgimg-8">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MOJ TATA ...</span>
+    <span class="border">MOJ TATA ...</span>
   </div>
 </div>
 
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p></p>
   </div>
 </div>
  <div class="bgimg-9">
   <div class="caption">
-    <span class="border" style="background-color:transparent;font-size:25px;color: #f7f7f7;">MOJ PREDLOG JE USVOJEN...OD SADA ZAJEDNO SPAVAMO</span>
+    <span class="border">MOJ PREDLOG JE USVOJEN... OD SADA ZAJEDNO SPAVAMO</span>
   </div>
 </div>
 <div style="position:relative;">
-  <div style="color:#ddd;background-color:#6a103d;text-align:center;padding:50px 80px;text-align: justify;">
+  <div class = "opis">
     <p>Zamislite, stavili me u krevetac i otišli u krevet. Imala sam predlog koji nisu mogli da odbiju. Od sada ćemo spavati zajedno tako
        da ću moći da dobijem više poljubaca u toku noći. Ne znam kako se toga sami nisu setili. Neka vas ne čudi što su oni otišli iz kreveta
      ja spavam kao najglavniji član naše porodice. Nadam se da će shvatiti da je krevetac previše mali pa će se i oni vratiti da spavamo
@@ -221,6 +294,5 @@ h3 {
     <p class="border">A OVO ISPRED SAM JA!</p>
   </div>
 </div>
-
 </body>
 </html>
