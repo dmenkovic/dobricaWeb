@@ -34,7 +34,7 @@ html, body {
 }
 #colors {
 	width: 65%;
-	margin: auto;
+	margin: 1em auto;
 }
 #colors:after {
 	content: "";
