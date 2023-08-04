@@ -166,6 +166,12 @@ footer .svg-inline--fa:hover {
 		font-size: 12px;
 	}
 }
+/*uređaji ispod 990px*/
+@media screen and (max-width: 990px) {
+	.text p {
+		font-size: 100%;
+	}
+}
 /*uređaji ispod 768px md:*/
 @media (max-width: 767.98px) {}
 
