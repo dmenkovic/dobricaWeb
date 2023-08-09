@@ -97,7 +97,10 @@ html, body {
 	text-shadow: .1rem .1rem .3rem rgba(0, 0, 0, 1);
 	font-size: 1.2rem;
 }
-
+.card-deck .card {
+	background-color: #8394ae;
+	border: none;
+}
 div.fixed {
 	background-image: url("bgr_NikolaKovacev.jpg");
 	position: fixed;
