@@ -43,24 +43,24 @@
 <!-- Navigacija -->
 <nav class="navbar bg-light navbar-light navbar-expand-lg">
   <div class="container">
-    <!-- <a href="index.html"class="navbar-brand"><img src="nikola.png" alt="NikolaKovacev" title="logo" /></a> -->
+    <!-- <a href="index.html"class="navbar-brand"><img src="img/nikola.png" alt="NikolaKovacev" title="logo" /></a> -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
-        <li class="nav-item"><a href="index.html" class="nav-link active">O treneru</a></li>
+        <li class="nav-item"><a href="#trener" class="nav-link active">O treneru</a></li>
         <li class="nav-item dropdown"><a href="#" class="nav-link dropdown-toggle"data-toggle="dropdown">Treninzi</a>
           <div class="dropdown-menu">
             <ul>
-              <li><a class="dropdown-item" href="#">Individualni</a></li>
-              <li><a class="dropdown-item" href="#">Duo</a></li>
-              <li><a class="dropdown-item" href="#">Grupni</a></li>
-              <li><a class="dropdown-item" href="#">Online</a></li>
+              <li><a class="dropdown-item" href="#treninzii">Individualni</a></li>
+              <li><a class="dropdown-item" href="#treninzid">Duo</a></li>
+              <li><a class="dropdown-item" href="#treninzig">Grupni</a></li>
+              <li><a class="dropdown-item" href="#treninzio">Online</a></li>
             </ul>
           </div>
         </li>
-        <li class="nav-item"><a href="#" class="nav-link">Kontakt i lokacije</a></li>
+        <li class="nav-item"><a href="#kontakt" class="nav-link">Kontakt i lokacije</a></li>
       </ul>
     </div>
   </div>
@@ -92,7 +92,7 @@
 </div>
 
       <!-- O treneru -->
-<div class="col-12 text-center mt-5">
+<div class="col-12 text-center mt-5" id="trener">
   <h1 class="pt-4" style="color: #7aaec4; text-shadow: 0.1rem 0.1rem 0.3rem rgba(0, 0, 0, 1);">NIKOLA KOVAČEV</h1>
   <h2>Viši sportski trener</h2>
   <div class="border-top border-primary w-25 mx-auto my-3"></div>
@@ -138,31 +138,41 @@
     </div>
   </div>
 </div>
-<div class="container my-5" style="background-color: rgba(122, 174, 196, .5);"> 
-  <div class="row">
-    <div class="col-md-6 my-4" style="box-shadow: 1px 1px 6px #2d2c2c; padding: 20px; background-color: #fff;">
+<div class="container-fluid my-5" style="background-color: rgba(30, 62, 113, .5);"> 
+  <div class="" style="padding: 75px;">
+  <div class="row card-deck">
+    <div class="col-md-6 card" id="treninzii">
+      <div class="card-body" style="box-shadow: 1px 1px 6px #2d2c2c; background-color: #fff; margin:25px; padding: 20px;">
       <img src="personalni_NikolaKovačev.jpg" alt="personalni" class="w-100" />
       <h2 class="my-4">Individualni trening</h2>
-      <p>Rad sa personalnim trenerom jedan na jedan uz 100% pažnje posvećene Vama i vašim ciljevima, bilo da je to nabacivanje mišićne mase, mršavljenje, poboljšanje performansi, popravljanje posture ili izgleda određenog dela tela. </p>
+        <p class="card-text" >Rad sa personalnim trenerom jedan na jedan uz 100% pažnje posvećene Vama i vašim ciljevima, bilo da je to nabacivanje mišićne mase, mršavljenje, poboljšanje performansi, popravljanje posture ili izgleda određenog dela tela. </p>
+      </div>
     </div>
-    <div class="col-md-6 my-4" style="box-shadow: 1px 1px 6px #2d2c2c; padding: 20px; background-color: #fff;">
+    <div class="col-md-6 card" id="treninzid">
+      <div class="card-body" style="box-shadow: 1px 1px 6px #2d2c2c; background-color: #fff; margin:25px; padding: 20px;">
       <img src="duo_NikolaKovačev.jpg" alt="duo" class="w-100" />
       <h2 class="my-4">Duo trening</h2>
-      <p>Trening za dva vežbača koji imaju iste ili slične trenažne ciljeve. Ima sve pogodnosti individualnog treninga, samo po nižoj ceni i u društvu koje ste sami birali. </p>
+        <p class="card-text" >Trening za dva vežbača koji imaju iste ili slične trenažne ciljeve. Ima sve pogodnosti individualnog treninga, samo po nižoj ceni i u društvu koje ste sami birali.<br> </p>
+     </div>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-6 my-4" style="box-shadow: 1px 1px 6px #2d2c2c; padding: 20px; background-color: #fff;">
+  <div class="row card-deck">
+    <div class="col-md-6 card" id="treninzig">
+      <div class="card-body" style="box-shadow: 1px 1px 6px #2d2c2c; background-color: #fff; margin:25px; padding: 20px;">
       <img src="grupni_NikolaKovačev.jpg" alt="grupni" class="w-100" />
       <h2 class="my-4">Grupni trening</h2>
-      <p>Grupni trening - funkcionalni i kondicioni treninzi koji se održavaju u manjim grupama ( do 10 vežbača ) 3 ili više puta nedeljno u određenim terminima. </p>
-    </div>
-    <div class="col-md-6 my-4" style="box-shadow: 1px 1px 6px #2d2c2c; padding: 20px; background-color: #fff;">
+        <p class="card-text" >Grupni trening - funkcionalni i kondicioni treninzi koji se održavaju u manjim grupama ( do 10 vežbača ) 3 ili više puta nedeljno u određenim terminima.<br> </p>
+      </div>
+  </div>
+    <div class="col-md-6 card" id="treninzio">
+      <div class="card-body" style="box-shadow: 1px 1px 6px #2d2c2c; background-color: #fff; margin:25px; padding: 20px;">
       <img src="online_NikolaKovačev.jpg" alt="online" class="w-100" />
       <h2 class="my-4">Online trening</h2>
-      <p>Onlajn trening sadrži pisanje personalizovanih programa treninga uz video instrukcije vežbi, kao i praćenje napretka uz kontakt sa trenerom putem chat-a ( Viber, WhatsApp ) ili putem telefonskog poztiva </p>
-    </div>
+        <p class="card-text" >Onlajn trening sadrži pisanje personalizovanih programa treninga uz video instrukcije vežbi, kao i praćenje napretka uz kontakt sa trenerom putem chat-a ( Viber, WhatsApp ) ili putem telefonskog poztiva </p>
+      </div>
   </div>
+  </div>
+</div>
 </div>
 <!-- END TRENINZI -->
 <div class="fixed-background">
