@@ -190,6 +190,7 @@ footer .svg-inline--fa:hover {
 @media (max-width: 767.98px) {
 	.card-deck .card {
 		min-width: 100%;
+		padding:0;
 	}
 }
 
