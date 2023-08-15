@@ -39,7 +39,7 @@ html, body {
 .top-bar {
 	background: #7aaec4;
 	height: auto;
-	padding: .5rem 0;
+	padding: 1.3rem 0;
 }
 .top-bar a {
 	color: white;
@@ -134,7 +134,7 @@ div.fixed-background {
 
 footer {
 	background-color: #1f334a;
-	padding: 1rem 2rem 3rem;
+	padding: 4rem 2rem 3rem;
 }
 footer img #logo {
 	height: 3.5rem;
